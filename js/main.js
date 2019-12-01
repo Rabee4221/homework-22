@@ -11,9 +11,10 @@ console.log(digit3 * 4);
 const digit4 = prompt('Введите радиус окружности!');
 console.log(digit4 * 3.1415 * 2);
 
-
-
-
+const digit5 = prompt('Введите расстояние в км между двумя городами!');
+const digit55 = prompt('Введите за сколько часов!');
+const speed = (digit5 / digit55)
+console.log(`${speed} км в час`);
 
 
 const digit6 = prompt('Введите сумму долларов!');
